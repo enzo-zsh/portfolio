@@ -34,6 +34,15 @@ pre {
     color: #fff;
     padding: 10px;
     border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* Pour les navigateurs qui supportent cette propriété */
+}
+
+code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* Pour les navigateurs qui supportent cette propriété */ 
 }
 
 ul {
@@ -57,4 +66,13 @@ a:hover {
 section > p:first-child {
     color: #00ff00;
     font-weight: bold;
+}
+
+/* Style spécifique pour les écrans plus petits */
+@media (max-width: 600px) {
+    pre, code {
+        white-space: pre-wrap; /* Permet les sauts de ligne */
+        word-wrap: break-word; /* Permet de couper les mots pour éviter de dépasser */
+        overflow-wrap: break-word; /* Pour les navigateurs qui supportent cette propriété */
+    }
 }
