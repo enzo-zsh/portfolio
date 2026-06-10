@@ -1,0 +1,78 @@
+{
+  "profile": {
+    "name": "Enzo Lazzarato",
+    "title": "Ingénieur en cybersécurité",
+    "about": "Après 3 ans d'expérience en alternance, je recherche un poste en CDI en tant qu'ingénieur cybersécurité. Mon profil est orienté cybersécurité, systèmes UNIX, logiciels libres et innovation technique, avec une forte culture liée à l'open-source. Curieux, autonome et créatif, je suis passionné par l'informatique, l'optimisation des systèmes et les technologies à forte dimension produit.",
+    "email": "enzo.lazzarato.pro@gmail.com",
+    "phone": "07-50-63-26-24",
+    "location": "Bordeaux, France",
+    "linkedin": "https://linkedin.com/in/enzo-lazzarato/",
+    "github": "https://github.com/enzo-zsh"
+  },
+  "skills": {
+    "hard": [
+      "Système UNIX (macOS, BSD, GNU/Linux)",
+      "Sécurité Samba AD-DC",
+      "Wazuh & Outils SIEM/EDR",
+      "Proxmox VE & Virtualisation",
+      "Docker / LXC / Podman",
+      "Scripting shell",
+      "Git",
+      "Windows Server",
+      "Réseau (OPNsense, VPN IPSec)"
+    ],
+    "soft": [
+      "Curieux",
+      "Rigoureux",
+      "Créatif",
+      "Esprit d'initiative",
+      "Vision long terme",
+      "Pensée analytique"
+    ]
+  },
+  "experience": [
+    {
+      "role": "Ingénieur Sécurité IT Junior (Alternance)",
+      "company": "Compagnie Fiduciaire",
+      "initials": "CF",
+      "period": "2024 - 2026",
+      "description": "Administration EDR/SIEM, patch-management via Wazuh réduisant de 20% les CVE. Échange avec le SOC, sensibilisation au phishing (1300 envois/mois) et structuration de la veille cybersécurité (FreshRSS)."
+    },
+    {
+      "role": "Administrateur système et réseau (Alternance)",
+      "company": "Placeloop",
+      "initials": "PL",
+      "period": "2023 - 2024",
+      "description": "Déploiement Samba AD-DC (GPO, restriction des droits), gestion d'inventaire GLPI. Sécurisation endpoints (OpenVAS), gestion de baie avec pare-feu OPNsense. Infrastructure 100% open-source sous Proxmox VE."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Homelab",
+      "description": "Serveur d'auto-hébergement personnel. Mise en place d'un stockage cloud NAS visant à réduire la dépendance aux solutions propriétaires tout en expérimentant avec des environnements UNIX.",
+      "year": "Depuis 2018"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Mastère Cybersécurité",
+      "school": "Sup de Vinci, Bordeaux",
+      "period": "2024 - 2026"
+    },
+    {
+      "degree": "Bachelor Système & Réseau, Cloud et Cybersécurité",
+      "school": "Sup de Vinci, Bordeaux",
+      "period": "2023 - 2024"
+    },
+    {
+      "degree": "BTS Services Informatiques aux Organisations (SISR)",
+      "school": "Lycée Gustave Eiffel, Bordeaux",
+      "period": "2021 - 2023"
+    },
+    {
+      "degree": "Bac Pro Systèmes Numériques (RISC)",
+      "school": "Lycée Jean-Monnet, Libourne",
+      "period": "2018 - 2021"
+    }
+  ]
+}
