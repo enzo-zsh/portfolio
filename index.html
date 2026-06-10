@@ -1,82 +1,99 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Enzo Lazzarato</title>
+    <title>Enzo Lazzarato - Portfolio</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>PORTFOLIO(1)</h1>
-        <p>NOM</p>
-        <h2>Enzo Lazzarato - Étudiant M1 Cybersécurité</h2>
-    </header>
-    <main>
-        <section>
-            <p>SYNOPSIS</p>
-            <pre><code>Adminsys & Developer in my free time | Cybersecurity student | Vinyl and Apple lover</code></pre>
-        </section>
-        <section>
-            <p>DESCRIPTION</p>
-            <p>Étudiant au campus Sup de Vinci à Bordeaux en Mastère 1e année : Cybersécurité, je suis passionné d’informatique, technologie, électronique et de rétrogaming/computing depuis mon plus jeune âge.</p>
-            <p>Alternant chez Compagnie Fiduciaire (Groupe CF)</p>
-        </section>
-        <section>
-            <p>COMPÉTENCES</p>
-            <ul>
-                <li><strong>Pentesting</strong> : Pentesting Web et Système Windows et GNU/Linux</li>
-                <li><strong>Sécurisation GNU/Linux</strong> : Sécurisation de services sous GNU/Linux.</li>
-                <li><strong>SIEM</strong> : Installation et déploiement de Wazuh, un SIEM open-source</li>
-                <li><strong>Python</strong> : Création de divers script lié à la cybersécurité (pentesting, scan nmap, etc ...)</li>
-                <li><strong>Shell :</strong> : Création de petit script bash et connaissance robuste du shell (zsh, bash, etc) sous UNIX.</li>
-                <li><strong>PowerShell :</strong> : Création de script Powershell pour des GPO</li>
-                <li><strong>OSINT :</strong> : Divers labs sur le site ozint.eu (Osintopia)</li>
-                <li><strong>Firewalling avancé :</strong> : Sécurisation d'un pare-feu avec création de règles de sécurité (OPNsense, Stormshield).</li>
-                <li><strong>Docker :</strong> : Création et déploiement de container Docker Standalone.</li>
-                <li><strong>Prompt Engineering :</strong> : Création de prompts complexes pour qu'une IA nous donne un résultat voulu.</li>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">PORTFOLIO - Enzo L<span class="accent-dot">.</span></span>
+            <ul class="nav-menu">
+                <li><a href="#about-section">À propos</a></li>
+                <li><a href="#skills-section">Compétences</a></li>
+                <li><a href="#experience-section">Expériences</a></li>
+                <li><a href="#projects-section">Projets</a></li>
+                <li><a href="#education-section">Formations</a></li>
             </ul>
-        </section>
-        <section>
-            <p>CURRICULUM VITAE</p>
-            <p>Télécharger mon CV (pdf) : <a href="https://drive.google.com/file/d/1od2jn7JG-jQJYGleOMN0IljtJWEMB09L/view?usp=sharing">CV - Enzo Lazzarato.pdf (+ d'infos sur mon CV et mon LinkedIn)</a></p>
-        </section>
-        <section>
-            <p>PROJETS</p>
-            <pre><code>Projet 1 : Ce portfolio</code></pre>
-            <p>Mon portfolio en ligne, créé pour montrer mes compétences et mes projets. Développé avec HTML et CSS.</p>
-            <pre><code>Projet 2 : iWebAppStore / iWebAppStore Legacy</code></pre>
-            <p>Un store de WebApps (PWA) pour iOS en no-code. HTML / CSS (version legacy)</p>
-            <pre><code>Projet 3 : Apple Archive</code></pre>
-            <p>Une chaîne YouTube qui archive toutes les vidéos liées à Apple (pub, trailers, etc ...).</p>
-        </section>
-        <section>
-            <p>PASSIONS</p>
-            <ul>
-                <li><strong>- Vinyles</strong></li>
-                <li><strong>- Collections Apple</strong></li>
-                <li><strong>- Musique (ChillSynth, SynthWave)</strong></li>
-            </ul>
-        </section>
-        <section>
-            <p>BENEVOLAT</p>
-            <pre><code>1 - Directeur de labs (2023-2024)</code></pre>
-            <p>J'anime des labs mentorat après les cours au sein de mon école, Sup de Vinci.</p>
-            <pre><code>2 - Apple Communities</code></pre>
-            <p>J'apporte mon aide sur le forum d'Apple, sur l'écosystème Apple.</p>
-        </section>
-        <section>
-            <p>CONTACT</p>
-            <p>Courriel : <a href="mailto:enzo.lazzarato.pro@gmail.com">enzo.lazzarato.pro@gmail.com</a></p>
-            <p>LinkedIn : <a href="https://www.linkedin.com/in/enzo-lazzarato/" target="_blank">https://www.linkedin.com/in/enzo-lazzarato/</a></p>
-            <p>GitHub : <a href="https://github.com/enzo-zsh" target="_blank">https://github.com/enzo-zsh</a></p>
-        </section>
-        <section>
-            <p>AUTEUR</p>
-            <p>Enzo Lazzarato - 2025 - Tous droits réservés</p>
-            <p>Template générés à partir de ChatGPT</p>
-        </section>
-    </main>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" checked />
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about-section" class="fullscreen-section hero-blur-bg">
+        <div class="container">
+            <div class="about-glass-card">
+                <div class="about-content-wrapper">
+                    <div class="about-text-block">
+                        <h1 id="hero-name">Loading...</h1>
+                        <h2 id="hero-title" class="accent-color">Loading...</h2>
+                        <p id="hero-about" class="large-text"></p>
+                        <div class="contact-links" id="contact-links"></div>
+                    </div>
+                    <div class="about-memoji-container">
+                        <div class="memoji-placeholder">
+                            <img src="https://images.unsplash.com/photo-1672872476232-da16b45c9001?q=80&w=1171" alt="Memoji Enzo" class="memoji-image">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-section" class="fullscreen-section bg-alt">
+        <div class="container">
+            <h2 class="section-heading">Compétences</h2>
+            <div class="skills-wrapper">
+                <div class="skills-column">
+                    <h3 class="column-title">Hard Skills</h3>
+                    <ul id="hard-skills-list" class="minimal-list"></ul>
+                </div>
+                <div class="skills-column">
+                    <h3 class="column-title">Soft Skills</h3>
+                    <ul id="soft-skills-list" class="minimal-list"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience-section" class="fullscreen-section">
+        <div class="container">
+            <h2 class="section-heading">Expériences</h2>
+            <div id="experience-list" class="timeline-container"></div>
+        </div>
+    </section>
+
+    <section id="projects-section" class="fullscreen-section bg-alt">
+        <div class="container">
+            <h2 class="section-heading">Projets Personnels</h2>
+            <div id="projects-list" class="grid-layout"></div>
+        </div>
+    </section>
+
+    <section id="education-section" class="fullscreen-section">
+        <div class="container">
+            <h2 class="section-heading">Formations</h2>
+            <div id="education-list" class="grid-layout"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Enzo Lazzarato — Ingénieur Cybersécurité</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
