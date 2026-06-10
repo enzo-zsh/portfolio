@@ -60,7 +60,7 @@ h1, h2, h3, h4, .logo {
     color: var(--purple-accent);
 }
 
-/* --- BARRE DE NAVIGATION (NAVBAR) --- */
+/* --- BARRE DE NAVIGATION --- */
 .navbar {
     position: fixed;
     top: 0; left: 0; width: 100%;
@@ -160,10 +160,10 @@ input:checked + .slider:before { transform: translateX(20px); background-color: 
     border-radius: 2px;
 }
 
-/* --- SECTION 1: À PROPOS (BLUR BG & GLASS) --- */
+/* --- SECTION 1: À PROPOS --- */
 .hero-blur-bg {
     position: relative;
-    background-image: url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=1920');
+    background-image: url('https://images.unsplash.com/photo-1583431588110-81f245194f8b?q=80&w=1068&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -174,8 +174,8 @@ input:checked + .slider:before { transform: translateX(20px); background-color: 
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background: rgba(9, 9, 11, 0.3);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     z-index: 1;
 }
 
@@ -370,6 +370,29 @@ input:checked + .slider:before { transform: translateX(20px); background-color: 
     color: var(--text-muted);
     font-weight: 500;
     margin-bottom: 1rem;
+}
+
+/* --- STYLES POUR LES LISTES DANS LES CARTES --- */
+.card-list {
+    list-style-type: none; /* On cache la puce par défaut pour mettre un tiret ou point custom */
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
+
+.card-list li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.card-list li::before {
+    content: '•'; /* Puce personnalisée */
+    position: absolute;
+    left: 0;
+    color: var(--purple-accent);
+    font-weight: bold;
 }
 
 /* --- SECTIONS 4 & 5: GRID (FORMATIONS / PROJETS) --- */
