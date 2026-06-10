@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // 2. Chargement des données JSON réelles
+    // 2. Chargement des données JSON
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
@@ -55,6 +55,13 @@ function populateSkills(skills) {
 function populateExperience(experiences) {
     const container = document.getElementById('experience-list');
     experiences.forEach(exp => {
+        // Génération de la liste à puces pour l'expérience
+        let descHTML = '<ul class="card-list">';
+        exp.description.forEach(item => {
+            descHTML += `<li>${item}</li>`;
+        });
+        descHTML += '</ul>';
+
         container.innerHTML += `
             <div class="experience-card">
                 <div class="company-logo-placeholder">${exp.initials}</div>
@@ -64,7 +71,7 @@ function populateExperience(experiences) {
                         <span class="exp-period">${exp.period}</span>
                     </div>
                     <div class="exp-company">${exp.company}</div>
-                    <p>${exp.description}</p>
+                    ${descHTML}
                 </div>
             </div>
         `;
@@ -74,11 +81,18 @@ function populateExperience(experiences) {
 function populateProjects(projects) {
     const container = document.getElementById('projects-list');
     projects.forEach(proj => {
+        // Génération de la liste à puces pour le projet
+        let descHTML = '<ul class="card-list">';
+        proj.description.forEach(item => {
+            descHTML += `<li>${item}</li>`;
+        });
+        descHTML += '</ul>';
+
         container.innerHTML += `
             <div class="info-block">
                 <h4>${proj.title}</h4>
                 <div class="meta">${proj.year}</div>
-                <p>${proj.description}</p>
+                ${descHTML}
             </div>
         `;
     });
