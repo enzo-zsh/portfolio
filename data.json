@@ -36,21 +36,38 @@
       "company": "Compagnie Fiduciaire",
       "initials": "CF",
       "period": "2024 - 2026",
-      "description": "Administration EDR/SIEM, patch-management via Wazuh réduisant de 20% les CVE. Échange avec le SOC, sensibilisation au phishing (1300 envois/mois) et structuration de la veille cybersécurité (FreshRSS)."
+      "description": [
+        "Administration EDR/SIEM et maintien en conditions opérationnelles (MCO/MCS).",
+        "Gestion de projets sécurité, dont la migration vers une nouvelle solution EDR/XDR.",
+        "Patch-management via Wazuh : réduction de 20% des CVE sur le parc serveur.",
+        "Collaboration avec le SOC pour l'optimisation de la détection et la réponse aux incidents.",
+        "Sensibilisation interne : campagnes de phishing (1300 envois/mois, 63% de signalements) et newsletters cyber.",
+        "Structuration de la veille cybersécurité (FreshRSS) ciblée sur les menaces et le RGPD."
+      ]
     },
     {
       "role": "Administrateur système et réseau (Alternance)",
       "company": "Placeloop",
       "initials": "PL",
       "period": "2023 - 2024",
-      "description": "Déploiement Samba AD-DC (GPO, restriction des droits), gestion d'inventaire GLPI. Sécurisation endpoints (OpenVAS), gestion de baie avec pare-feu OPNsense. Infrastructure 100% open-source sous Proxmox VE."
+      "description": [
+        "Déploiement Samba AD-DC : gestion des identités, GPO, et limitation stricte des droits administrateurs.",
+        "Renforcement de la sécurité des endpoints et réalisation d'audits de vulnérabilités avec OpenVAS.",
+        "Conception de la baie informatique et sécurisation réseau (pare-feu OPNsense, tunnels VPN IPSec).",
+        "Déploiement d'une infrastructure virtualisée 100% open-source (Proxmox VE, LXC, Docker).",
+        "Mise en place de la centralisation de l'inventaire IT via GLPI (environ 200 appareils)."
+      ]
     }
   ],
   "projects": [
     {
       "title": "Homelab",
-      "description": "Serveur d'auto-hébergement personnel. Mise en place d'un stockage cloud NAS visant à réduire la dépendance aux solutions propriétaires tout en expérimentant avec des environnements UNIX.",
-      "year": "Depuis 2018"
+      "year": "Depuis 2018",
+      "description": [
+        "Auto-hébergement de divers services sur un serveur personnel.",
+        "Mise en place d'un stockage cloud de type NAS.",
+        "Réduction active de la dépendance aux solutions propriétaires tierces."
+      ]
     }
   ],
   "education": [
