@@ -68,6 +68,23 @@
         "Mise en place d'un stockage cloud de type NAS.",
         "Réduction active de la dépendance aux solutions propriétaires tierces."
       ]
+    },
+        {
+      "title": "iWebAppStore",
+      "year": "Depuis 2022",
+      "description": [
+        "Une boutique de PWA pour iOS, écrit en No-code",
+        "Héberger sur le site Adalo ",
+        "Site : https://enzo-zsh.github.io/iWebAppStore/app"
+      ]
+    },
+        {
+      "title": "Traducteur FR : DynamicLakePro",
+      "year": "2024 - 2026",
+      "description": [
+        "Traducteur français du logiciel macOS : DynamicLakePro ",
+        "Site : https://www.dynamiclake.com/dynamiclakepro"
+      ]
     }
   ],
   "education": [
