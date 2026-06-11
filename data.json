@@ -7,7 +7,8 @@
     "phone": "07-50-63-26-24",
     "location": "Bordeaux, France",
     "linkedin": "https://linkedin.com/in/enzo-lazzarato/",
-    "github": "https://github.com/enzo-zsh"
+    "github": "https://github.com/enzo-zsh",
+    "CV": "https://github.com/enzo-zsh"
   },
   "skills": {
     "hard": [
@@ -62,11 +63,20 @@
   "projects": [
     {
       "title": "Homelab",
-      "year": "Depuis 2018",
+      "year": "Depuis 2025",
       "description": [
         "Auto-hébergement de divers services sur un serveur personnel.",
         "Mise en place d'un stockage cloud de type NAS.",
         "Réduction active de la dépendance aux solutions propriétaires tierces."
+      ]
+      },
+        {
+      "title": "@enzo-zsh - macOS Icons Library",
+      "year": "Depuis 2023",
+      "description": [
+        "Une library d'icônes pour macOS designées par moi-même (icônes + site)",
+        "Mon profil macOSicons : https://macosicons.com/u/enzo_lzrt",
+        "Site : https://enzo-zsh.github.io/my-icons/"
       ]
     },
         {
